@@ -14,6 +14,9 @@ public class MyModule {
 		
 		Date now=new Date();
 		System.out.println(now);
+		String message="Mulati Brian" + " !!";
+		System.out.println(message.length());
+		System.out.println(message.endsWith("!!"));
 		
 		
 	}
